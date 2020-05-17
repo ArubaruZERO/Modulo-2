@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.container{
+    display: flex;
+    width: 100%;
+    margin: 15px;
+    padding: 5PX;
+    
+}
+
+/* HOTEL INFO */
+
+.hotel-info{
+    display: flex;
+    /* justify-content: space-around; */
+    box-sizing: border-box;
+    width: 60vw;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 15px 45px;
+    background-color: #dfdfdf;
+}
+.hotel-text{
+   
+    width: 35vw;
+}
+.hotel-image{
+    
+    width: 25vw;
+}
+.hotel-image img{
+    
+    width: 25vw;
+}
+
+/* HOTEL REVIEW */
+
+.hotel-review{
+    background-color: #dfdfdf;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 0 15px;
+    padding: 15px 45px;
+    width: 30vw;
+  
+}
+.rating{
+    
+    height: 40%;
+    margin-bottom: 5px;
+    
+}
+.anonimus-review{
+    margin:15px 0;
+    height: 50%;
+    
+}
+
+hr{
+    height: 1px;
+    background-color: black;
+
+}
+
+p{
+    font-size: x-large;
+    color: yellow;
+}
